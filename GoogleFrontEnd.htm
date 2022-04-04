@@ -1,0 +1,42 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FRONT END GOOGLE</title>
+    <style>
+      body {
+        background: #353535;
+        margin: 0;
+      }
+
+      #backgroundImage {
+        border: none;
+        height: 100%;
+        pointer-events: none;
+        position: fixed;
+        top: 0;
+        visibility: hidden;
+        width: 100%;
+      }
+
+      [show-background-image] #backgroundImage {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+   <form action="https://www.google.com/search">
+            <input type="text" name="q">
+            <input type="submit" value="Google Search">
+   </form>
+<form action="https://www.google.co.in/advanced_search">
+            <input type="text" name="q">
+            <input type="submit" value="Google Advance Search">
+   </form>
+<form action="https://images.google.com">
+            <input type="text" name="q">
+            <input type="submit" value="Google Image Search">
+   </form>
+  </body>
+</html>
