@@ -93,8 +93,8 @@ Python is a very powerful and widely-used language that will allow us to quickly
  <p>9.Exceptions: Even if a statement or expression is syntactically correct, it may cause an error when an attempt is made to execute it. Errors detected during execution are called exceptions and are not unconditionally fatal.</p>
  
 
-<h3>  Django</h3>  
-  
+<h3>  👨🏽‍🎓Django</h3>  
+Django is a Python-based web framework that will allow us to write Python code that dynamically generates HTML and CSS. The advantage to using a framework like Django is that a lot of code is already written for us that we can take advantage of.
   
   
   
