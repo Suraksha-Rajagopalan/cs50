@@ -94,8 +94,8 @@ Python is a very powerful and widely-used language that will allow us to quickly
  
 
 <h3>  👨🏽‍🎓Django</h3>  
-Django is a Python-based web framework that will allow us to write Python code that dynamically generates HTML and CSS. The advantage to using a framework like Django is that a lot of code is already written for us that we can take advantage of.
-  
+Django is a Python-based web framework that will allow us to write Python code that dynamically generates HTML and CSS. The advantage to using a framework like Django is that a lot of code is already written for us that we can take advantage of. Here are some of the common status codes seen in Django.
+<img width="997" alt="codes" src="https://user-images.githubusercontent.com/91787553/172060048-2e63db00-3f97-4b22-8bbc-ed8c930e17b7.png">  
   
   
 For more information about this course you can visit
