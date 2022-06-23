@@ -96,7 +96,18 @@ Python is a very powerful and widely-used language that will allow us to quickly
 <h3>  👨🏽‍🎓Django</h3>  
 Django is a Python-based web framework that will allow us to write Python code that dynamically generates HTML and CSS. The advantage to using a framework like Django is that a lot of code is already written for us that we can take advantage of. Here are some of the common status codes seen in Django.
 <img width="997" alt="codes" src="https://user-images.githubusercontent.com/91787553/172060048-2e63db00-3f97-4b22-8bbc-ed8c930e17b7.png">  
-  
+
+Some important syntax learnt:
+<li>1. For showing the number of times you have visited website: </li>
+
+```python
+def index(request) :
+    global clicked        #Variable to store the number of times a person has visitied the website.
+    clicked+=1            #Increment of the variable each time visited.
+    my_dict = { 'inject_var' : ("You have entered the server "+str(clicked)+" times")}         
+    return render(request,'index.html',context=my_dict)             #index.html gets the value from this block and the value is shown in the website.
+ ```
+<li>2. 
   
 For more information about this course you can visit
 <a href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript" target="_main">Course </a>
